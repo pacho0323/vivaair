@@ -1,0 +1,26 @@
+#language: es
+Característica: Reserva de vuelos
+Como un usuario web 
+Quiero ver los vuelos disponibles
+Para realizar una reserva
+
+Escenario: Buscar vuelo
+Dado que Juan se encuentre en la pagina de vivaair
+Cuando ingrese la información
+|ORIGEN|Medellín, José María Córdova (MDE)|
+|DESTINO|Cartagena (CTG)|
+|AÑO|2018|
+|MES|Noviembre|
+|DIA|14|
+|AÑO|2019|
+|MES|Marzo|
+|DIA|30|
+|ADULTO|1|
+|NIÑO|1|
+|INFANTE|0|
+|MONEDA|DOP|
+|CORREO|pacho0323@hotmail.com|
+|TELEFONO|3405050408|
+|NACIONALIDAD|Canada|
+|NUMERODESAGRAVIO|68768765|
+Entonces vera la información de la factura en TU COMPRA
